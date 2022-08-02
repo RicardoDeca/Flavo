@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavo</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+        <img src="./assets/menu-hamburguer.png" alt="menu">
+        <h1>flavo</h1>
+        <img src="./assets/bag.png" alt="bag-shop">
+        </div>
+    </header>
+    <main>
+        <figure>
+            <img src="./assets/intensity.png" alt="cosiness">
+        </figure>
+        <section>
+        <div class="h2--container">
+        <h2>INTENSITY</h2><h2>$15</h2>
+        </div>
+        <h3>WHAT'S INSIDE</h3>
+        <p>Chili, oregano, safran, paprika</p>
+        <h3>WHY WE LOVE IT</h3>
+        <p>This one will add a little savoury flavour to any food and turn any meal to a culinary marsterpiece.</p>
+        </section>
+        <form>
+            <input  id="bag" type="radio" checked name="size">
+            <label onclick="bag()"for="bag">BAG (75g)</label>
+            <input id='jar'type="radio" name="size">
+            <label onclick="jar()"for="jar">JAR (150g)</label>
+        </form>
+    </main>    
+    
+    <footer>
+        <div class="count">
+            <button onclick="minus()">-</button>
+            <p>0</p>
+            <button onclick="plus()">+</button>
+        </div>
+        <button class="addBtn">ADD TO CART</button>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

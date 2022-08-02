@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Passion+One:wght@400;700&family=Space+Grotesk:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+
+body{
+    background-color:coral ;
+    min-height: 100vh;
+}
+
+.menu{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    height: 70%;
+    border-radius: 25px;
+    background-color:palegoldenrod;
+}
+
+h1{
+
+    width: 65%;
+    text-align: center;
+    font-family: 'Niconne';
+}
+
+header{
+
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    width: 30px;
+    height: 30px;
+}
+
+figure{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figure img{
+    height: 40vh;
+}
+
+.h2--container{
+  
+    display: flex;
+    width:95%;
+    justify-content: space-between;
+}
+
+h2{
+
+    font-size: 2rem;
+    font-family: 'Passion One';
+}
+
+h3{
+    font-size: 1.1rem;
+  
+    width:95%;
+    height:5vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Passion One';
+}
+
+p{
+   
+    width: 75%;
+    line-height: 22px;
+    font-weight: 600;
+    font-family: 'Space Grotesk';
+}
+
+.count{
+    border:solid;
+    display: flex;
+    justify-content:space-around;
+    width: 95%;
+    border-radius: 20px;
+    height: 35%;
+}
+
+.count p{
+    text-align: center;
+    display: grid;
+    align-content: center;
+    width:62%;
+    height: 100%;
+
+}
+
+input{
+    display:none;
+    
+}
+
+  label::before{
+    border:solid 0.1px;
+    border-radius: 20px;
+    width: 10px;
+    height:10px;
+    content: '';
+    font-size: 0.7rem;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    right: 10px;
+    background-color: transparent;
+}
+
+input:checked + label::before{
+    background-color: black;
+}
+
+.count button{
+    width: 20px;
+    background: transparent;
+    border:none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 16vh;
+}
+
+.addBtn{
+    width: 95%;
+    border-radius:20px;
+    height: 35%;
+    color:white;
+    background-color: black;
+}
+
+section{
+   
+    margin-left: 5%;
+}
+
+form{
+    height: 5vh;
+    width: 71%;
+    margin-left:5% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
