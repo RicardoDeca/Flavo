@@ -145,6 +145,7 @@ footer{
 
 .addBtn{
     width: 95%;
+    border:none;
     border-radius:20px;
     height: 35%;
     color:white;
